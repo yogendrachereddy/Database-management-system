@@ -1,4 +1,4 @@
-mysql> use sec;
+mysql> use sse;
 Database changed
 mysql> create table mentees(Regno int(10),Name varchar(20),Dept varchar(4),Address varchar(10),Fathername varchar(10));
 Query OK, 0 rows affected, 1 warning (0.07 sec)
