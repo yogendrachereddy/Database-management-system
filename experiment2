@@ -1,8 +1,8 @@
-mysql> use sec;
+mysql> use sse;
 Database changed
 mysql> show tables;
 +---------------+
-| Tables_in_sec |
+| Tables_in_sse |
 +---------------+
 | bin           |
 | empdepartment |
