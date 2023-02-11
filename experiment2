@@ -2,7 +2,7 @@ mysql> use sec;
 Database changed
 mysql> show tables;
 +---------------+
-| Tables_in_sse |
+| Tables_in_sec |
 +---------------+
 | bin           |
 | empdepartment |
