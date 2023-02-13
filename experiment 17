@@ -1,0 +1,34 @@
+mysql> use sse;
+Database changed
+mysql> select*from mentees;
++-----------+---------+------+---------+------------+-------+---------+
+| Regno     | Name    | Dept | Address | Fathername | Marks | subject |
++-----------+---------+------+---------+------------+-------+---------+
+| 192011090 | Gowtham | CSE  | Chennai | moorthi    |    99 | DBMS    |
+| 192011079 | arun    | BME  | nellore | muthu      |    91 | BIOEVS  |
+| 192011095 | Harish  | ECE  | Madurai | Kannan     |    95 | PDSD    |
+| 192211080 | Dhivya  | ECE  | Tirupur | Ramesh     |    91 | PDSD    |
++-----------+---------+------+---------+------------+-------+---------+
+4 rows in set (0.00 sec)
+
+mysql> select repeat(Name,2) from mentees;
++----------------+
+| repeat(Name,2) |
++----------------+
+| GowthamGowtham |
+| arunarun       |
+| HarishHarish   |
+| DhivyaDhivya   |
++----------------+
+4 rows in set (0.01 sec)
+
+mysql> select repeat(Dept,2) from mentees;
++----------------+
+| repeat(Dept,2) |
++----------------+
+| CSECSE         |
+| BMEBME         |
+| ECEECE         |
+| ECEECE         |
++----------------+
+4 rows in set (0.00 sec)
